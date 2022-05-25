@@ -1,8 +1,8 @@
 # Example notebooks for the [scivision](https://github.com/alan-turing-institute/scivision) project
 
 This directory contains the following example notebooks:
-  - #1 How to use scivision: a notebook demonstrating essential scivision functionality, with image classification models
-  - #2 Image segmentation with scivision
+1. How to use scivision: a notebook demonstrating essential scivision functionality, with image classification models
+2. Image segmentation with scivision
   
 To run any of the notebooks in this directory locally, do the following, from the top level of this repo:
 
