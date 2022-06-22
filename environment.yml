@@ -8,4 +8,4 @@ dependencies:
   - pip
   - pip:
     - scivision
-    - skimage
+    - scikit-image
