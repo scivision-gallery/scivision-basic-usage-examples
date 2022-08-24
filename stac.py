@@ -17,15 +17,12 @@
 
 from scivision import load_stac_dataset
 
+data = load_stac_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac', allow_install=True)
 # data = load_stac_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac')
-load_stac_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac', allow_install=True)
+# load_stac_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac', allow_install=True)
+# load_stac_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac')
 
-from scivision_sentinel2_stac import load_images
-
-# yy = data.load_images()
-yy = load_images()
-
-yy = yy.compute()
+yy = data.compute()
 
 _ = (
     yy.isel(time=0)
