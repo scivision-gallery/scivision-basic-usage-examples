@@ -13,16 +13,13 @@
 #     name: python3
 # ---
 
-# add a new class to scivision similar to PretrainedModel called something like StacDataset which can interpret the yaml in the GH repo, right now the code is just installing the package
+from scivision import load_dataset
 
-from scivision import load_stac_dataset
+data = load_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac')
 
-data = load_stac_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac', allow_install=True)
-# data = load_stac_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac')
-# load_stac_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac', allow_install=True)
-# load_stac_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac')
+yy = data.load_data(resolution=11)
 
-yy = data.compute()
+yy = yy.compute()
 
 _ = (
     yy.isel(time=0)
