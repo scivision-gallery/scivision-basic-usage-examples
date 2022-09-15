@@ -17,7 +17,7 @@ from scivision import load_dataset
 
 data = load_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac')
 
-yy = data.load_data(resolution=11)
+yy = data.load_data(resolution=20, bands=("red", "green", "blue"))
 
 yy = yy.compute()
 
