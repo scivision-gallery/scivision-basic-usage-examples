@@ -14,6 +14,7 @@
 # ---
 
 from scivision import load_dataset
+import matplotlib.pyplot as plt
 
 data = load_dataset('https://github.com/alan-turing-institute/scivision_sentinel2_stac')
 
@@ -31,3 +32,5 @@ _ = (
         vmax=4000,
     )
 )
+
+plt.show()
