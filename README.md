@@ -8,8 +8,12 @@ This repo contains the following example notebooks, which can be run by clicking
   
 To run the notebooks in this repo locally, do the following:
 
-1. Create the environment for the notebooks: `conda env create -f environment.yml`
-2. Activate it: `conda activate scivision`
-3. Open the notebooks in this repo with `jupyter notebook`
+1. Open your terminal
+2. Check your conda installation with `conda --version`. If you don't have conda, install it by following [these instructions](https://docs.conda.io/en/latest/miniconda.html)
+3. Clone the repository into your current folder `git clone https://github.com/scivision-gallery/scivision-basic-usage-examples` 
+4. Change directory to the cloned repository, `cd scivision-basic-usage-examples`. 
+5. Create an environment, scivision, for the notebooks: `conda env create -f environment.yml`
+6. Activate it: `conda activate scivision`
+7. Open the notebooks in this repo with `jupyter notebook`
 
 **Visit the [Scivision Gallery](https://github.com/scivision-gallery) to see more examples and use-cases.**
