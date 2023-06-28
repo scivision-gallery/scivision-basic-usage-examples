@@ -16,4 +16,7 @@ To run the notebooks in this repo locally, do the following:
 6. Activate it: `conda activate scivision`
 7. Open the notebooks in this repo with `jupyter notebook`
 
+A full conda environment can be found in `environment_full.yml` if you are having issues creating the conda environment. 
+This contains details of all the packages and their versions which are required to run these notebooks, including secondary and tertiary dependencies.
+
 **Visit the [Scivision Gallery](https://github.com/scivision-gallery) to see more examples and use-cases.**
