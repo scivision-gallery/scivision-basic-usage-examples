@@ -12,12 +12,13 @@ dependencies:
   - jupyter=1.0.0 
   - keras=2.10.0
   - libclang=15.0.7
-  - onnx=1.13.1
+  - matplotlib=3.7.1 
+  - onnx=1.14.0
   - onnxconverter-common=1.13.0
   - optax=0.1.4
   - pip=23.0.1 
   - protobuf=4.21.12
-  - pytorch=1.13.1
+  - pytorch=2.0.0
   - tensorboard=2.10.1
   - tensorflow=2.10.0
   - tensorflow-cpu=2.10.0
@@ -26,12 +27,12 @@ dependencies:
   - tf2onnx=1.13.0
   - timm=0.6.11
   - tokenizers=0.12.1
-  - torchvision=0.12.0 
+  - torchvision=0.13.0 
   - transformers=4.19.0
   - pip:
     - intake==0.6.8
     - intake-xarray==0.6.1
-    - keras-nlp==0.2.0
+    - keras-nlp==0.5.2
     - scikit-image==0.20.0
     - tensorflow-text==2.10.0
     - git+https://github.com/alan-turing-institute/scivision@main#egg=scivision
