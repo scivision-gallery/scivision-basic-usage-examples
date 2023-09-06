@@ -35,4 +35,4 @@ dependencies:
     - keras-nlp==0.5.2
     - scikit-image==0.20.0
     - tensorflow-text==2.10.0
-    - git+https://github.com/alan-turing-institute/scivision@main#egg=scivision
+    - scivision==0.7.0
