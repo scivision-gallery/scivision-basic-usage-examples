@@ -342,5 +342,5 @@ dependencies:
       - tifffile==2023.4.12
       - xarray==2023.6.0
       - zarr==2.15.0
-      - git+https://github.com/alan-turing-institute/scivision@main#egg=scivision
+      - scivision==0.7.0
     
